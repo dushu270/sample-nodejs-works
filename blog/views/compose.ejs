@@ -1,0 +1,14 @@
+<%- include("header") -%>
+<h1>COMPOSE</h1>
+
+<form action="/compose.ejs" method="post">
+  <label>TITLE</label><br />
+  <input type="text" name="posttitle" /><br />
+  <label>POST</label><br />
+  <textarea type="text" rows="4" cols="50" name="postbody"></textarea>
+  <br />
+
+  <button type="submit">SUBMIT</button>
+</form>
+
+<%- include("footer") -%>

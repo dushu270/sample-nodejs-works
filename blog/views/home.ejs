@@ -1,0 +1,29 @@
+<%- include("header") -%>
+
+<div class="middle">
+  <h2><b><%= pageejs %></b></h2>
+  <P
+    >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, recusandae.
+    Mollitia nobis accusamus dolorum est tempore maxime unde. Hic aspernatur
+    delectus aliquam maiores tempora ex saepe vero officia rem iusto.</P
+  >
+
+  <p><b><%=homeejs%></b></p>
+
+<form action="/" methos="post"> 
+  <input type="text" name="filename"/>
+  <input type="submit">
+ 
+</form>
+  
+
+
+  <% dataejs.forEach(function(i){%>
+  <h1><%= i.title %></h1>
+  <p><%=i.content%></p>
+  <a href="/posts/<%=i.title%>">readmeore</a>
+
+ 
+  <% }); %>
+</div>
+<%- include("footer") -%>

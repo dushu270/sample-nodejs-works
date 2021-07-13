@@ -1,0 +1,30 @@
+.top ul {
+  list-style-type: none;
+  float: right;
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  padding: 14px 16px;
+}
+.top ul > li {
+  float: left;
+}
+
+.top ul li a {
+  padding: 20px;
+}
+.top h1 {
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 50px;
+  text-align: left;
+  color: brown;
+}
+
+.middle {
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+  padding-top: 50px;
+}
